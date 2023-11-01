@@ -187,9 +187,10 @@ a:is(:link, :active, :visited).active{
   position: absolute; 
   transform: translateX(100%);
 }
+
 /* ÁO */
-/* Cái đầu tiên khi load trang, nên phải quay về để thấy translate 0px */
-/* Từ cái thứ 2, phải ẩn để không nhìn thấy, dùng translate 120% */
+/* Cái đầu tiên khi load trang, nên phải quay về để thấy nội dung dùng translate 0px */
+/* Từ cái thứ 2, phải ẩn để không nhìn thấy, dùng translate 120% hoặc hơn*/
 #content1{
   transform: translateX(0px);
 }
@@ -197,6 +198,7 @@ a:is(:link, :active, :visited).active{
   color: black !important;
   border-radius: 4px;
 }
+
 /* QUẦN */
 #content2{
   transform: translateX(120%);
@@ -205,6 +207,7 @@ a:is(:link, :active, :visited).active{
   color: black !important;
   border-radius: 4px;
 }
+
 /* GIÀY DÉP*/
 #content3{
   transform: translateX(120%);
@@ -221,6 +224,7 @@ a:is(:link, :active, :visited).active{
   color: black !important;
   border-radius: 4px;
 }
+
 /* DÂY CHUYỀN */
 #content5{
   transform: translateX(190%);
@@ -229,10 +233,12 @@ a:is(:link, :active, :visited).active{
   color: black !important;
   border-radius: 4px;
 }
+/* Chỉnh nút chính giữa */
 #content5 .btn-success{
   position: relative !important;
   left: 15px !important;
 }
+
 /* KIỂU TÓC */
 #content6{
   transform: translateX(240%);
@@ -241,11 +247,30 @@ a:is(:link, :active, :visited).active{
   color: black !important;
   border-radius: 4px;
 }
+/* Chỉnh nút chính giữa */
 #content6 .btn-success{
   position: relative !important;
   left: 15px !important;
 }
-/* KHI ẤN NÚT SẼ THỬ ĐỒ
-#bot1 img{
-  transform: translateX(100%);
-} */
+#hairstyle{
+  position: relative;
+  left: 60px;
+}
+
+/* HÌNH NỀN */
+#content7{
+  transform: translateX(240%);
+}
+#btn7{
+  color: black !important;
+  border-radius: 4px;
+}
+/* Chỉnh nút chính giữa */
+#content7 .btn-success{
+  position: relative !important;
+  left: 15px !important;
+}
+.background #background{
+  width: 900px;
+  height: 1500px;
+}

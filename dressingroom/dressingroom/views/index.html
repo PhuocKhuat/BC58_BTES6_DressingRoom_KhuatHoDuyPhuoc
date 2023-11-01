@@ -40,12 +40,12 @@
         </div>
       </div>
       <!-- TẠO MENU TAB -->
-      <!-- B1. Tạo menu tab bằng ul, li, button -->
-      <!-- B2. Tạo id cho từng nút để đổi css -->
-      <!-- B3. Tạo onclick cho từng nút để khi ấn vào -->
-      <!-- B4. Tạo nội dung bảng bằng table, tr, td -->
-      <!-- B5. Tạo class content, xem bên style css -->
-      <!-- B6. Tạo id content, xem bên style css -->
+      <!-- B1. Tạo menu tab bằng row, col, ul, li, button -->
+      <!-- B2. Tạo id cho từng button để đổi css -->
+      <!-- B3. Tạo onclick cho từng button để khi ấn vào sẽ hiển bảng -->
+      <!-- B4. Tạo nội dung bảng bằng div (chứa table), table, tr, td -->
+      <!-- B5. Tạo class content cho từng div, xem bên style css -->
+      <!-- B6. Tạo id content cho từng div, xem bên style css -->
 
       <div class="row">
         <div class="col-md-8 hero">
@@ -58,6 +58,7 @@
               <li><button id="btn4" class="text-primary px-4 py-2" onclick="openHbag()">Túi xách</button></li>
               <li><button id="btn5" onclick="openNeckplace()" class="text-primary px-4 py-2">Dây chuyền</button></li>
               <li><button id="btn6" class="text-primary px-4 py-2" onclick="onHairStyle()">Kiểu tóc</button></li>
+              <li><button id="btn7" class="text-primary px-4 py-2" onclick="onBackground()">Hình nền</button></li>
             <!-- </tr> -->
           </ul>
           <div class="content" id="content1">
@@ -102,27 +103,27 @@
                 <td>
                     <img src="../assets/images/clothes/botcloth1_show.jpg" alt="">
                     <p class="text-center">Bot cloth 1</p>
-                    <button class="btn btn-success">Thử váy</button>
+                    <button class="btn btn-success" onclick="clickSkirt1()">Thử váy</button>
                 </td>
                 <td>
                     <img src="../assets/images/clothes/botcloth2_show.jpg" alt="">
                     <p class="text-center">Bot cloth 2</p>
-                    <button class="btn btn-success">Thử váy</button>
+                    <button class="btn btn-success" onclick="clickSkirt2()">Thử váy</button>
                 </td>
                 <td>
                     <img src="../assets/images/clothes/botcloth3_show.jpg" alt="">
                     <p class="text-center">Bot cloth 3</p>
-                    <button class="btn btn-success">Thử váy</button>
+                    <button class="btn btn-success" onclick="clickSkirt3()">Thử váy</button>
                 </td>
                 <td>
                     <img src="../assets/images/clothes/botcloth4_show.jpg" alt="">
                     <p class="text-center">Bot cloth 4</p>
-                    <button class="btn btn-success align-content-center">Thử váy</button>
+                    <button class="btn btn-success align-content-center" onclick="clickSkirt4()">Thử váy</button>
                 </td>
                 <td>
                     <img src="../assets/images/clothes/botcloth5_show.jpg" alt="">
                     <p class="text-center">Bot cloth 5</p>
-                    <button class="btn btn-success">Thử váy</button>
+                    <button class="btn btn-success" onclick="clickSkirt5()">Thử váy</button>
                 </td>
               </tr>
             </table>
@@ -133,27 +134,27 @@
                 <td>
                     <img src="../assets/images/shoes/shoes1_show.jpg">
                     <p class="text-center">Shoe 1</p>
-                    <button class="btn btn-success">Thử giày</button>
+                    <button class="btn btn-success" onclick="clickShoe1()">Thử giày</button>
                 </td>
                 <td>
                     <img src="../assets/images/shoes/shoes2_show.jpg" alt="">
                     <p class="text-center">Shoe 2</p>
-                    <button class="btn btn-success">Thử giày</button>
+                    <button class="btn btn-success" onclick="clickShoe2()">Thử giày</button>
                 </td>
                 <td>
                     <img src="../assets/images/shoes/shoes3_show.jpg" alt="">
                     <p class="text-center">Shoe 3</p>
-                    <button class="btn btn-success">Thử giày</button>
+                    <button class="btn btn-success" onclick="clickShoe3()">Thử giày</button>
                 </td>
                 <td>
                     <img src="../assets/images/shoes/shoes4_show.jpg" alt="">
                     <p class="text-center">Shoe 4</p>
-                    <button class="btn btn-success align-content-center">Thử giày</button>
+                    <button class="btn btn-success align-content-center" onclick="clickShoe4()">Thử giày</button>
                 </td>
                 <td>
                     <img src="../assets/images/shoes/shoes5_show.jpg" alt="">
                     <p class="text-center">Shoe 5</p>
-                    <button class="btn btn-success">Thử giày</button>
+                    <button class="btn btn-success" onclick="clickShoe5()">Thử giày</button>
                 </td>
               </tr>
             </table>
@@ -163,18 +164,18 @@
               <tr>
                 <td>
                     <img src="../assets/images/handbags/handbag1_show.jpg ">
-                    <p class="text-center">Shoe 1</p>
-                    <button class="btn btn-success">Thử túi</button>
+                    <p class="text-center">Handbag 1</p>
+                    <button class="btn btn-success" onclick="clickHbag1()">Thử túi</button>
                 </td>
                 <td>
                     <img src="../assets/images/handbags/handbag2_show.jpg " alt="">
-                    <p class="text-center">Shoe 2</p>
-                    <button class="btn btn-success">Thử túi</button>
+                    <p class="text-center">Handbag 2</p>
+                    <button class="btn btn-success" onclick="clickHbag2()">Thử túi</button>
                 </td>
                 <td>
                     <img src="../assets/images/handbags/handbag3_show.jpg " alt="">
-                    <p class="text-center">Shoe 3</p>
-                    <button class="btn btn-success">Thử túi</button>
+                    <p class="text-center">Handbag 3</p>
+                    <button class="btn btn-success" onclick="clickHbag3()">Thử túi</button>
                 </td>
               </tr>
             </table>
@@ -185,17 +186,17 @@
                 <td>
                     <img src="../assets/images/necklaces/necklace1_show.jpg ">
                     <p class="text-center">Necklace 1</p>
-                    <button class="btn btn-success">Thử dây chuyền</button>
+                    <button class="btn btn-success" onclick="clickNelace1()">Thử dây chuyền</button>
                 </td>
                 <td>
                     <img src="../assets/images/necklaces/necklace2_show.jpg " alt="">
                     <p class="text-center">Necklace 2</p>
-                    <button class="btn btn-success">Thử dây chuyền</button>
+                    <button class="btn btn-success" onclick="clickNelace2()">Thử dây chuyền</button>
                 </td>
                 <td>
                     <img src="../assets/images/necklaces/necklace3_show.jpg " alt="">
                     <p class="text-center">Necklace 3</p>
-                    <button class="btn btn-success">Thử dây chuyền</button>
+                    <button class="btn btn-success" onclick="clickNelace3()">Thử dây chuyền</button>
                 </td>
               </tr>
             </table>
@@ -205,30 +206,70 @@
               <tr>
                 <td>
                     <img src="../assets/images/hairstyle/hairstyle1_show.jpg">
-                    <p class="text-center">hairstyle 1</p>
-                    <button class="btn btn-success">Thử kiểu tóc</button>
+                    <p class="text-center">Hairstyle 1</p>
+                    <button class="btn btn-success" onclick="clickHStyle1()">Thử kiểu tóc</button>
                 </td>
                 <td>
                     <img src="../assets/images/hairstyle/hairstyle2_show.jpg" alt="">
-                    <p class="text-center">hairstyle 2</p>
-                    <button class="btn btn-success">Thử kiểu tóc</button>
+                    <p class="text-center">Hairstyle 2</p>
+                    <button class="btn btn-success" onclick="clickHStyle2()">Thử kiểu tóc</button>
                 </td>
                 <td>
                     <img src="../assets/images/hairstyle/hairstyle3_show.jpg" alt="">
-                    <p class="text-center">hairstyle 3</p>
-                    <button class="btn btn-success">Thử kiểu tóc</button>
+                    <p class="text-center">Hairstyle 3</p>
+                    <button class="btn btn-success" onclick="clickHStyle3()">Thử kiểu tóc</button>
                 </td>
               </tr>
             </table>
           </div>
+          <div class="content" id="content7">
+            <table>
+              <tr>
+                <td>
+                    <img src="../assets/images/background/background1_show.jpg">
+                    <p class="text-center">Background 1</p>
+                    <button class="btn btn-success" onclick="clickBground1()">Thử hình nền</button>
+                </td>
+                <td>
+                    <img src="../assets/images/background/background2_show.jpg" alt="">
+                    <p class="text-center">Background 2</p>
+                    <button class="btn btn-success" onclick="clickBground2()">Thử hình nền</button>
+                </td>
+                <td>
+                    <img src="../assets/images/background/background3_show.jpg" alt="">
+                    <p class="text-center">Background 3</p>
+                    <button class="btn btn-success" onclick="clickBground3()">Thử hình nền</button>
+                </td>
+                <td>
+                  <img src="../assets/images/background/background4_show.jpg" alt="">
+                  <p class="text-center">Background 4</p>
+                  <button class="btn btn-success" onclick="clickBground4()">Thử hình nền</button>
+              </td>
+              <td>
+                  <img src="../assets/images/background/background5_show.jpg" alt="">
+                  <p class="text-center">Background 5</p>
+                  <button class="btn btn-success" onclick="clickBground5()">Thử hình nền</button>
+                </td>
+              <td>
+                  <img src="../assets/images/background/background6_show.jpg" alt="">
+                  <p class="text-center">Background 6</p>
+                  <button class="btn btn-success" onclick="clickBground6()">Thử hình nền</button>
+              </td>
+              <td>
+                <img src="../assets/images/background/background7_show.jpg" alt="">
+                <p class="text-center">Background 7</p>
+                <button class="btn btn-success" onclick="clickBground7()">Thử hìn h nền</button>
+              </td>
+              </tr>
+            </table>
+          </div>
           <!-- KHI ẤN VÀO SẼ THỬ ĐỒ MẪU -->
-          <!-- B1. Tạo onclick cho từng nút thử đồ
+          <!-- B1. Tạo onclick cho từng nút thử đồ (nếu thay đổi thuộc tính màu sắc thì tạo id cho nút).
            -->
-          <!-- B2. Tạo onclick cho từng nút thử đồ
-           -->
-          <!-- B3. Tạo thẻ div cho từng hình ảnh
-           -->
-          <!-- B4. Tạo ID để qua js link tới từng hình ảnh
+          <!-- B2. Tạo thẻ div cho từng hình ảnh, để hình vào giữa thẻ div cần hiện trên giao diện.
+          -->
+          <!-- B3. Phải chọn ĐÚNG VỊ TRÍ để đặt hình ảnh. -->
+          <!-- B4. Tạo ID ở hình ảnh để qua js link tới từng hình ảnh.
            -->
           <!-- <div class="content" id="bot1"><img src="../assets/images/clothes/topcloth1.png" alt=""></div> -->
           <div class="well">
@@ -236,19 +277,32 @@
             <div class="tab-content"></div>
           </div>
         </div>
+        <!-- NHỮNG VỊ TRÍ TRÊN GIAO DIỆN -->
         <div class="col-md-4">
           <div class="contain">
-            <div class="body"><img src="../assets/images/allbody/bikini_branew.png" alt="" id="body"></div>
-            <div class="model">
-
+            <div class="body">
             </div>
-            <div class="hairstyle"></div>
-            <div class="necklace"></div>
-            <div class="bikinitop"></div>
-            <div class="bikinibottom"></div>
-            <div class="handbag"></div>
-            <div class="feet"></div>
-            <div class="background"></div>
+            <div class="model">
+            </div>
+            <div class="hairstyle">
+              <img src="../assets/images/model/1000new.png" alt="" id="hairstyle">
+            </div>
+            <div class="necklace">
+              <img src="../assets/images/allbody/feet_high_leftnew.png" id="necklace" alt="">
+            </div>
+            <div class="bikinitop">
+              <img src="../assets/images/allbody/bikini_branew.png" alt="" id="bikinitop">
+            </div>
+            <div class="bikinibottom">
+              <img src="../assets/images/allbody/bikini_pantsnew.png" alt="" id="bikinibottom">
+            </div>
+            <div class="handbag">
+              <img src="../assets/images/allbody/feet_high_leftnew.png" id="handbag" alt="">
+            </div>
+            <div class="feet"><img src="../assets/images/allbody/feet_high_rightnew.png" alt="" id="feet"></div>
+            <div class="background">
+              <img src="../assets/images/background/background_998.jpg" alt="" id="background">
+            </div>
           </div>
         </div>
       </div>
