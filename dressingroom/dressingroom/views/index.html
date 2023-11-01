@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CyberLearn Dressing Room</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.0/tailwind.min.css" integrity="sha512-ksC7McuoU4VJ07WGtca5INyDRXzGsmhyEEJYzoWBkjC/KwuG+IK/pFnxJFNIGmOd8pmGexOxd3FziCPZXQJ4lA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./../assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="text-center">
+              <img src="./../assets/images/cybersoft.png" alt="Card image" />
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                CyberLearn - Học lập trình trực tuyến - Dự án thử đồ trực tuyến
+                - Virtual Dressing Room
+              </h4>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <!-- TẠO MENU TAB -->
+      <!-- B1. Tạo menu tab bằng ul, li, button -->
+      <!-- B2. Tạo id cho từng nút để đổi css -->
+      <!-- B3. Tạo onclick cho từng nút để khi ấn vào -->
+      <!-- B4. Tạo nội dung bảng bằng table, tr, td -->
+      <!-- B5. Tạo class content, xem bên style css -->
+      <!-- B6. Tạo id content, xem bên style css -->
+
+      <div class="row">
+        <div class="col-md-8 hero">
+          <ul class="nav nav-pills">
+            <!-- <tr> -->
+              <li><button id="btn1" class="text-primary px-4 py-2" onclick="openShirt()">Áo</button></li>
+              <li><button id="btn2" class="text-primary px-4 py-2" onclick="openSkirt()">Váy</button></li>
+              <li><button id="btn3" 
+              class="text-primary px-4 py-2" onclick="openShoe()">Giày dép</button></li>
+              <li><button id="btn4" class="text-primary px-4 py-2" onclick="openHbag()">Túi xách</button></li>
+              <li><button id="btn5" onclick="openNeckplace()" class="text-primary px-4 py-2">Dây chuyền</button></li>
+              <li><button id="btn6" class="text-primary px-4 py-2" onclick="onHairStyle()">Kiểu tóc</button></li>
+            <!-- </tr> -->
+          </ul>
+          <div class="content" id="content1">
+            <table>
+              <tr>
+                <td>
+                    <img src="../assets/images/clothes/topcloth1_show.jpg" alt="">
+                    <p class="text-center">Top cloth 1</p>
+                    <button onclick="clickShirt1()" class="btn btn-success">Thử áo</button>
+                </td>
+                <td>
+                    <img src="../assets/images/clothes/topcloth2_show.jpg" alt="">
+                    <p class="text-center">Top cloth 2</p>
+                    <button onclick="clickShirt2()" class="btn btn-success">Thử áo</button>
+                </td>
+                <td>
+                    <img src="../assets/images/clothes/topcloth3_show.jpg" alt="">
+                    <p class="text-center">Top cloth 3</p>
+                    <button onclick="clickShirt3()" class="btn btn-success">Thử áo</button>
+                </td>
+                <td>
+                    <img src="../assets/images/clothes/topcloth4_show.jpg" alt="">
+                    <p class="text-center">Top cloth 4</p>
+                    <button onclick="clickShirt4()" class="btn btn-success align-content-center">Thử áo</button>
+                </td>
+                <td>
+                    <img src="../assets/images/clothes/topcloth5_show.jpg" alt="">
+                    <p class="text-center">Top cloth 5</p>
+                    <button onclick="clickShirt5()" class="btn btn-success">Thử áo</button>
+                </td>
+                <td>
+                    <img src="../assets/images/clothes/topcloth6_show.jpg" alt="">
+                    <p class="text-center">Top cloth 6</p>
+                    <button onclick="clickShirt6()" class="btn btn-success">Thử áo</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="content" id="content2">
+            <table>
+              <tr>
+                <td>
+                    <img src="../assets/images/clothes/botcloth1_show.jpg" alt="">
+                    <p class="text-center">Bot cloth 1</p>
+                    <button class="btn btn-success">Thử váy</button>
+                </td>
+                <td>
+                    <img src="../assets/images/clothes/botcloth2_show.jpg" alt="">
+                    <p class="text-center">Bot cloth 2</p>
+                    <button class="btn btn-success">Thử váy</button>
+                </td>
+                <td>
+                    <img src="../assets/images/clothes/botcloth3_show.jpg" alt="">
+                    <p class="text-center">Bot cloth 3</p>
+                    <button class="btn btn-success">Thử váy</button>
+                </td>
+                <td>
+                    <img src="../assets/images/clothes/botcloth4_show.jpg" alt="">
+                    <p class="text-center">Bot cloth 4</p>
+                    <button class="btn btn-success align-content-center">Thử váy</button>
+                </td>
+                <td>
+                    <img src="../assets/images/clothes/botcloth5_show.jpg" alt="">
+                    <p class="text-center">Bot cloth 5</p>
+                    <button class="btn btn-success">Thử váy</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="content" id="content3">
+            <table>
+              <tr>
+                <td>
+                    <img src="../assets/images/shoes/shoes1_show.jpg">
+                    <p class="text-center">Shoe 1</p>
+                    <button class="btn btn-success">Thử giày</button>
+                </td>
+                <td>
+                    <img src="../assets/images/shoes/shoes2_show.jpg" alt="">
+                    <p class="text-center">Shoe 2</p>
+                    <button class="btn btn-success">Thử giày</button>
+                </td>
+                <td>
+                    <img src="../assets/images/shoes/shoes3_show.jpg" alt="">
+                    <p class="text-center">Shoe 3</p>
+                    <button class="btn btn-success">Thử giày</button>
+                </td>
+                <td>
+                    <img src="../assets/images/shoes/shoes4_show.jpg" alt="">
+                    <p class="text-center">Shoe 4</p>
+                    <button class="btn btn-success align-content-center">Thử giày</button>
+                </td>
+                <td>
+                    <img src="../assets/images/shoes/shoes5_show.jpg" alt="">
+                    <p class="text-center">Shoe 5</p>
+                    <button class="btn btn-success">Thử giày</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="content" id="content4">
+            <table>
+              <tr>
+                <td>
+                    <img src="../assets/images/handbags/handbag1_show.jpg ">
+                    <p class="text-center">Shoe 1</p>
+                    <button class="btn btn-success">Thử túi</button>
+                </td>
+                <td>
+                    <img src="../assets/images/handbags/handbag2_show.jpg " alt="">
+                    <p class="text-center">Shoe 2</p>
+                    <button class="btn btn-success">Thử túi</button>
+                </td>
+                <td>
+                    <img src="../assets/images/handbags/handbag3_show.jpg " alt="">
+                    <p class="text-center">Shoe 3</p>
+                    <button class="btn btn-success">Thử túi</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="content" id="content5">
+            <table>
+              <tr>
+                <td>
+                    <img src="../assets/images/necklaces/necklace1_show.jpg ">
+                    <p class="text-center">Necklace 1</p>
+                    <button class="btn btn-success">Thử dây chuyền</button>
+                </td>
+                <td>
+                    <img src="../assets/images/necklaces/necklace2_show.jpg " alt="">
+                    <p class="text-center">Necklace 2</p>
+                    <button class="btn btn-success">Thử dây chuyền</button>
+                </td>
+                <td>
+                    <img src="../assets/images/necklaces/necklace3_show.jpg " alt="">
+                    <p class="text-center">Necklace 3</p>
+                    <button class="btn btn-success">Thử dây chuyền</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="content" id="content6">
+            <table>
+              <tr>
+                <td>
+                    <img src="../assets/images/hairstyle/hairstyle1_show.jpg">
+                    <p class="text-center">hairstyle 1</p>
+                    <button class="btn btn-success">Thử kiểu tóc</button>
+                </td>
+                <td>
+                    <img src="../assets/images/hairstyle/hairstyle2_show.jpg" alt="">
+                    <p class="text-center">hairstyle 2</p>
+                    <button class="btn btn-success">Thử kiểu tóc</button>
+                </td>
+                <td>
+                    <img src="../assets/images/hairstyle/hairstyle3_show.jpg" alt="">
+                    <p class="text-center">hairstyle 3</p>
+                    <button class="btn btn-success">Thử kiểu tóc</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!-- KHI ẤN VÀO SẼ THỬ ĐỒ MẪU -->
+          <!-- B1. Tạo onclick cho từng nút thử đồ
+           -->
+          <!-- B2. Tạo onclick cho từng nút thử đồ
+           -->
+          <!-- B3. Tạo thẻ div cho từng hình ảnh
+           -->
+          <!-- B4. Tạo ID để qua js link tới từng hình ảnh
+           -->
+          <!-- <div class="content" id="bot1"><img src="../assets/images/clothes/topcloth1.png" alt=""></div> -->
+          <div class="well">
+            <!-- Tab panes ~ KHI ẤN VÀO MẪU NGƯỜI -->
+            <div class="tab-content"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contain">
+            <div class="body"><img src="../assets/images/allbody/bikini_branew.png" alt="" id="body"></div>
+            <div class="model">
+
+            </div>
+            <div class="hairstyle"></div>
+            <div class="necklace"></div>
+            <div class="bikinitop"></div>
+            <div class="bikinibottom"></div>
+            <div class="handbag"></div>
+            <div class="feet"></div>
+            <div class="background"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./../models/ListChosen.js"></script>
+    <script src="./../models/ChoseItem.js"></script>
+    <script src="./../utils/callData.js"></script>
+    <script src="./../controllers/main.js"></script>
+  </body>
+</html>
