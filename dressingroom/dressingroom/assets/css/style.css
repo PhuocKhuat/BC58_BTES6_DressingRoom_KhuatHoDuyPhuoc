@@ -39,6 +39,7 @@
   height: 590px;
   margin: 0 auto;
   position: relative;
+  right: 40px;
 }
 .body {
   width: 250px;
@@ -181,11 +182,13 @@ a:is(:link, :active, :visited).active{
 .hero{
   /* Ẩn con content khi ra ngoài hero */
   overflow: hidden;
+  /* Để relative nhận content làm con */
+  position: relative;
 }
 .content{
-  /* Để relative để nhận hero làm cha */
+  /* Để absolute để nhận hero làm cha */
   position: absolute; 
-  transform: translateX(100%);
+  transform: translateX(140%);
 }
 
 /* ÁO */
@@ -200,9 +203,9 @@ a:is(:link, :active, :visited).active{
 }
 
 /* QUẦN */
-#content2{
+/* #content2{
   transform: translateX(120%);
-}
+} */
 #btn2{
   color: black !important;
   border-radius: 4px;
@@ -273,4 +276,14 @@ a:is(:link, :active, :visited).active{
 .background #background{
   width: 900px;
   height: 1500px;
+}
+
+/* KHUÔN MẶT */
+.modelImg{
+  position: relative;
+  left: 50px;
+}
+.textC8{
+  position: relative;
+  left: 82px;
 }

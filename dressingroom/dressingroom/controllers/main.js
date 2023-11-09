@@ -25,6 +25,7 @@ const content4 = document.getElementById('content4');
 const content5 = document.getElementById('content5');
 const content6 = document.getElementById('content6');
 const content7 = document.getElementById('content7');
+const content8 = document.getElementById('content8');
 
 //NÚT NHẤN.
 const btn1 = document.getElementById('btn1');
@@ -34,8 +35,9 @@ const btn4 = document.getElementById('btn4');
 const btn5 = document.getElementById('btn5');
 const btn6 = document.getElementById('btn6');
 const btn7 = document.getElementById('btn7');
+const btn8 = document.getElementById('btn8');
 
-// KHI TẢI TRANG.
+// KHI TẢI TRANG (MẶC ĐỊNH)
 btn1.style.background = "#3a86ff";
 btn2.style.background = "white";
 btn3.style.background = "white";
@@ -43,32 +45,35 @@ btn4.style.background = "white";
 btn5.style.background = "white";
 btn6.style.background = "white";
 btn7.style.background = "white";
+btn8.style.background = "white";
 
 //THỰC HIỆN ẤN NÚT.
 const openShirt = () => (
-    content1.style.transform = "translateX(0px)", content2.style.transform = "translateX(120%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)",
-    content7.style.transform = "translateX(240%)",
+    content1.style.transform = "translateX(0px)", content2.style.transform = "translateX(200%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)",
+    content7.style.transform = "translateX(240%)", content8.style.transform = "translateX(240%)",
     btn1.style.background = "#3a86ff",
     btn2.style.background = "white",
     btn3.style.background = "white",
     btn4.style.background = "white",
     btn5.style.background = "white",
     btn6.style.background = "white",
-    btn7.style.background = "white"
+    btn7.style.background = "white",
+    btn8.style.background = "white"
     );
 const openSkirt = () => (
-    content1.style.transform = "translateX(100%)", content2.style.transform = "translateX(0px)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)",
-    content7.style.transform = "translateX(240%)",
+    content1.style.transform = "translateX(140%)", content2.style.transform = "translateX(0px)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)",
+    content7.style.transform = "translateX(240%)", content8.style.transform = "translateX(240%)",
     btn1.style.background = "white",
     btn2.style.background = "#3a86ff",
     btn3.style.background = "white",
     btn4.style.background = "white",
     btn5.style.background = "white",
     btn6.style.background = "white",
-    btn7.style.background = "white"
+    btn7.style.background = "white",
+    btn8.style.background = "white"
     );
 const openShoe = () => (
-    content1.style.transform = "translateX(100%)", content2.style.transform = "translateX(120%)", content3.style.transform = "translateX(0px)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)",
+    content1.style.transform = "translateX(150%)", content2.style.transform = "translateX(150%)", content3.style.transform = "translateX(0px)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)",
     btn1.style.background = "white",
     btn2.style.background = "white",
     btn3.style.background = "#3a86ff",
@@ -78,7 +83,7 @@ const openShoe = () => (
     btn7.style.background = "white"
     );
 const openHbag = () => (
-    content1.style.transform = "translateX(100%)", content2.style.transform = "translateX(120%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(0px)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)",
+    content1.style.transform = "translateX(140%)", content2.style.transform = "translateX(140%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(0px)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)", content8.style.transform = "translateX(240%)",
     content7.style.transform = "translateX(240%)",
     btn1.style.background = "white",
     btn2.style.background = "white",
@@ -86,10 +91,11 @@ const openHbag = () => (
     btn4.style.background = "#3a86ff",
     btn5.style.background = "white",
     btn6.style.background = "white",
-    btn7.style.background = "white"
+    btn7.style.background = "white",
+    btn8.style.background = "white"
     );
 const openNeckplace = () => (
-    content1.style.transform = "translateX(100%)", content2.style.transform = "translateX(120%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(0px)", content6.style.transform = "translateX(240%)",
+    content1.style.transform = "translateX(140%)", content2.style.transform = "translateX(140%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(0px)", content6.style.transform = "translateX(240%)", content8.style.transform = "translateX(240%)",
     content7.style.transform = "translateX(240%)",
     btn1.style.background = "white",
     btn2.style.background = "white",
@@ -97,10 +103,11 @@ const openNeckplace = () => (
     btn4.style.background = "white",
     btn5.style.background = "#3a86ff",
     btn6.style.background = "white",
-    btn7.style.background = "white"
+    btn7.style.background = "white",
+    btn8.style.background = "white"
     );
 const onHairStyle = () => (
-    content1.style.transform = "translateX(100%)", content2.style.transform = "translateX(120%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(0px)",
+    content1.style.transform = "translateX(140%)", content2.style.transform = "translateX(140%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(0px)", content8.style.transform = "translateX(240%)",
     content7.style.transform = "translateX(240%)",
     btn1.style.background = "white",
     btn2.style.background = "white",
@@ -108,18 +115,32 @@ const onHairStyle = () => (
     btn4.style.background = "white",
     btn5.style.background = "white",
     btn6.style.background = "#3a86ff",
-    btn7.style.background = "white"
+    btn7.style.background = "white",
+    btn8.style.background = "white"
     );
 const onBackground = () => (
-    content1.style.transform = "translateX(100%)", content2.style.transform = "translateX(120%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)",
-    content7.style.transform = "translateX(0px)",
+    content1.style.transform = "translateX(140%)", content2.style.transform = "translateX(140%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)", 
+    content7.style.transform = "translateX(0px)", content8.style.transform = "translateX(240%)",
     btn1.style.background = "white",
     btn2.style.background = "white",
     btn3.style.background = "white",
     btn4.style.background = "white",
     btn5.style.background = "white",
     btn6.style.background = "white",
-    btn7.style.background = "#3a86ff"
+    btn7.style.background = "#3a86ff",
+    btn8.style.background = "#white"
+)
+const onModel = () => (
+    content1.style.transform = "translateX(140%)", content2.style.transform = "translateX(140%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)",
+    content7.style.transform = "translateX(240%)", content8.style.transform = "translateX(0px)",
+    btn1.style.background = "white",
+    btn2.style.background = "white",
+    btn3.style.background = "white",
+    btn4.style.background = "white",
+    btn5.style.background = "white",
+    btn6.style.background = "white",
+    btn7.style.background = "white",
+    btn8.style.background = "#3a86ff"
 )
 
 //MẶC THỬ KHI CLICK.
@@ -206,3 +227,8 @@ const clickBground6 = () =>
 background.src = '../assets/images/background/background6.jpg';
 const clickBground7 = () =>
 background.src = '../assets/images/background/background7.jpg';
+//KHUÔN MẶT
+const model = document.getElementById('model');
+const clickModel1 = () => model.src = '../assets/images/model/1000.png';
+const clickModel2 = () => model.src = '../assets/images/model/1003.png';
+const clickModel3 = () => model.src = '../assets/images/model/999.png';
