@@ -128,7 +128,7 @@ const onBackground = () => (
     btn5.style.background = "white",
     btn6.style.background = "white",
     btn7.style.background = "#3a86ff",
-    btn8.style.background = "#white"
+    btn8.style.background = "white"
 )
 const onModel = () => (
     content1.style.transform = "translateX(140%)", content2.style.transform = "translateX(140%)", content3.style.transform = "translateX(120%)", content4.style.transform = "translateX(190%)", content5.style.transform = "translateX(190%)", content6.style.transform = "translateX(240%)",

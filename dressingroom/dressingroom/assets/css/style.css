@@ -200,6 +200,7 @@ a:is(:link, :active, :visited).active{
 #btn1{
   color: black !important;
   border-radius: 4px;
+  outline: none;
 }
 
 /* QUẦN */
@@ -209,6 +210,7 @@ a:is(:link, :active, :visited).active{
 #btn2{
   color: black !important;
   border-radius: 4px;
+  outline: none;
 }
 
 /* GIÀY DÉP*/
@@ -218,6 +220,7 @@ a:is(:link, :active, :visited).active{
 #btn3{
   color: black !important;
   border-radius: 4px;
+  outline: none;
 }
 /* TÚI XÁCH */
 #content4{
@@ -226,6 +229,7 @@ a:is(:link, :active, :visited).active{
 #btn4{
   color: black !important;
   border-radius: 4px;
+  outline: none;
 }
 
 /* DÂY CHUYỀN */
@@ -235,6 +239,7 @@ a:is(:link, :active, :visited).active{
 #btn5{
   color: black !important;
   border-radius: 4px;
+  outline: none;
 }
 /* Chỉnh nút chính giữa */
 #content5 .btn-success{
@@ -249,6 +254,7 @@ a:is(:link, :active, :visited).active{
 #btn6{
   color: black !important;
   border-radius: 4px;
+  outline: none;
 }
 /* Chỉnh nút chính giữa */
 #content6 .btn-success{
@@ -267,6 +273,7 @@ a:is(:link, :active, :visited).active{
 #btn7{
   color: black !important;
   border-radius: 4px;
+  outline: none;
 }
 /* Chỉnh nút chính giữa */
 #content7 .btn-success{
@@ -279,9 +286,17 @@ a:is(:link, :active, :visited).active{
 }
 
 /* KHUÔN MẶT */
+#content8{
+  transform: translateX(240%);
+}
+#btn8{
+  color: black !important;
+  border-radius: 4px;
+  outline: none;
+}
 .modelImg{
   position: relative;
-  left: 50px;
+  left: 70px;
 }
 .textC8{
   position: relative;
